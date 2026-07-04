@@ -29,7 +29,7 @@ const Signup = () => {
       if (success) {
         toast.success(message, { position: "bottom-right" });
         setTimeout(() => {
-          window.location.href = "http://localhost:3001";
+          window.location.href = import.meta.env.VITE_DASHBOARD_URL;
         }, 1000);
       } else {
         toast.error(message, { position: "bottom-left" });

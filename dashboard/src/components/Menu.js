@@ -7,7 +7,7 @@ const handleLogout = async () => {
     method: "POST",
     credentials: "include",
   });
-  window.location.href = "http://localhost:5173";
+  window.location.href = process.env.REACT_APP_LANDING_URL;
 };
 
 const Menu = ({ onToggleWatchlist }) => {

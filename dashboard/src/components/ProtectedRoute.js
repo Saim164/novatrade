@@ -11,11 +11,11 @@ const ProtectedRoute = ({ children }) => {
         if (res.data.status) {
           setIsVerified(true);
         } else {
-          window.location.href = "http://localhost:5173/login";
+          window.location.href = `${process.env.REACT_APP_LANDING_URL}/login`;
         }
       })
       .catch(() => {
-        window.location.href = "http://localhost:5173/login";
+        window.location.href = `${process.env.REACT_APP_LANDING_URL}/login`;
       });
   }, []);
 
