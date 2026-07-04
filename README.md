@@ -92,6 +92,9 @@ This project focuses on implementing real-world backend and frontend architectur
 - dotenv
 - CORS
 
+### Testing
+- Jest
+
 ### Tools
 
 - Git
