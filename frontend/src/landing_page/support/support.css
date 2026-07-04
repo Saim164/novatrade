@@ -1,0 +1,66 @@
+.hero-wrapper {
+  background-color: rgb(56, 126,209);
+}
+
+.hero {
+  color: white;
+  padding: 2rem 3rem 4rem 9rem;
+}
+
+.hero-row1 div a,
+.hero-row2 div a {
+  font-size: 0.85rem;
+  color: white;
+  opacity: 0.9;
+}
+
+.hero-row1{
+    margin-bottom: 3.5rem;
+}
+
+.hero-row2 h3{
+  line-height: 1.5;
+}
+
+.hero-input{
+    width: 100%;
+    padding: 1rem;
+    border-radius: 10px;
+    border: none;
+}
+
+.row2 div a,
+.row3 div a {
+  text-decoration: none;
+  /* color: white; */
+}
+
+.row2 ul,
+.row3 ul {
+  padding-left: 1.2rem;
+}
+
+.row2 ul li,
+.row3 ul li {
+  margin-bottom: 0.6rem;
+}
+
+.row2,
+.row3 {
+  padding: 2rem 6rem;
+}
+
+@media (max-width: 767.98px) {
+  .hero {
+    padding: 2rem 1.5rem 3rem 1.5rem;
+  }
+
+  .row2,
+  .row3 {
+    padding: 1.5rem 2rem;
+  }
+
+  .hero-row1 {
+    margin-bottom: 1.5rem;
+  }
+}

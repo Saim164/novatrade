@@ -1,0 +1,74 @@
+/* common */
+.stats-heading {
+  font-size: 1.3rem;
+}
+
+.text-overflow {
+  overflow-wrap: break-word;
+}
+
+.links-home-page {
+  text-decoration: none;
+  font-size: 0.9rem;
+}
+
+.home-heading {
+  font-size: 1.8rem;
+}
+
+/* hero */
+.herobtn {
+  width: 20%;
+  margin: 0 auto;
+  font-weight: 500;
+}
+
+.hero-img {
+  display: block;
+  width: 100%;
+  max-width: 850px;
+  margin: 0 auto;
+}
+
+/* stats */
+.stats-img {
+  width: 100%;
+}
+
+/* education */
+.education-img {
+  width: 70%;
+}
+
+/* responsive */
+@media (max-width: 991.98px) {
+  .hero-img {
+    max-width: 620px;
+  }
+
+  .herobtn {
+    width: 40%;
+  }
+
+  .education-img {
+    width: 50%;
+  }
+}
+
+@media (max-width: 575.98px) {
+  .home-heading {
+    font-size: 1.4rem;
+  }
+
+  .hero-img {
+    max-width: 400px;
+  }
+
+  .herobtn {
+    width: 70%;
+  }
+
+  .education-img {
+    width: 60%;
+  }
+}

@@ -1,0 +1,72 @@
+/* nav  */
+nav {
+  background-color: #fff;
+}
+
+.navbar-logo {
+  width: 120px;
+  max-width: 100%;
+}
+
+.nav-link {
+  margin-left: 25px;
+  font-size: 0.9rem;
+}
+
+/* open-acc */
+.openAccountbtn {
+  width: 20%;
+  margin: 0 auto;
+  font-weight: 500;
+}
+
+/* responsive */
+@media (max-width: 991.98px) {
+  .nav-link {
+    margin-left: 0;
+    padding: 0.5rem 0;
+  }
+
+  .openAccountbtn {
+    width: 60%;
+  }
+}
+
+@media (max-width: 575.98px) {
+  .navbar-logo {
+    width: 100px;
+  }
+
+  .openAccountbtn {
+    width: 80%;
+  }
+}
+
+/* footer  */
+footer {
+  background-color: #e2e8f0;
+}
+.footer-logo {
+  width: 50%;
+}
+
+.footer-para {
+  font-size: 0.8rem;
+}
+
+.footer-company a,
+.footer-support a,
+.footer-account a,
+.final-links a{
+  text-decoration: none;
+  font-size: 0.8rem;
+  color: black;
+  opacity: 0.6;
+}
+
+.footer-company a:hover,
+.footer-support a:hover,
+.footer-account a:hover,
+.final-links a:hover{
+  opacity: 1;
+}

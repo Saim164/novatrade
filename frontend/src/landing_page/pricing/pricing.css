@@ -1,0 +1,20 @@
+.hero-row2 div p{
+    font-size: 0.92rem;
+}
+
+.brokerage-calculator ul li{
+    font-size: 0.75rem;
+    /* opacity: 0.5; */
+    margin-bottom: 0.8rem;
+    text-align: left;
+}
+
+.brokerage{
+    padding: 4rem 5rem;
+}
+
+@media (max-width: 767.98px) {
+    .brokerage{
+        padding: 2rem 1.5rem;
+    }
+}

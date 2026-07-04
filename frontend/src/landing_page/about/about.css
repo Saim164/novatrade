@@ -1,0 +1,39 @@
+.hero-heading{
+    font-size: 1.8rem;
+}
+
+.about-para p{
+    opacity: 0.8;
+    line-height: 1.8;
+}
+
+.about-para a{
+    text-decoration: none;
+}
+
+.img-sec img{
+    border-radius: 100%;
+    width: 60%;
+}
+
+.img-sec p{
+    font-weight: 500;
+}
+
+.position-text{
+    font-size: 0.9rem;
+}
+
+.team-para{
+    font-size: 0.9rem;
+}
+
+@media (max-width: 575.98px) {
+    .hero-heading{
+        font-size: 1.4rem;
+    }
+
+    .img-sec img{
+        width: 40%;
+    }
+}
