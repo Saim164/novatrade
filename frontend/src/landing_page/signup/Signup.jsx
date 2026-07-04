@@ -21,7 +21,7 @@ const Signup = () => {
     e.preventDefault();
     try {
       const { data } = await axios.post(
-        "http://localhost:3002/signup",
+        `${import.meta.env.VITE_API_URL}/signup`,
         { ...inputValue },
         { withCredentials: true }
       );

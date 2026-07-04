@@ -9,7 +9,7 @@ const Orders = () => {
   const generalContext = useContext(GeneralContext);
 
   const fetchOrders = () => {
-    axios.get("http://localhost:3002/allOrders", { withCredentials: true }).then((res) => {
+    axios.get(`${process.env.REACT_APP_API_URL}/allOrders`, { withCredentials: true }).then((res) => {
       setallOrders(res.data);
     });
   };
@@ -72,7 +72,7 @@ const Orders = () => {
                         onClick={() => {
                           axios
                             .delete(
-                              `http://localhost:3002/deleteOrder/${order._id}`,
+                              `${process.env.REACT_APP_API_URL}/deleteOrder/${order._id}`,
                             )
                             .then(() => fetchOrders());
                         }}

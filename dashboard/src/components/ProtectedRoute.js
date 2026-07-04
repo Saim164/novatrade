@@ -6,7 +6,7 @@ const ProtectedRoute = ({ children }) => {
 
   useEffect(() => {
     axios
-      .post("http://localhost:3002/", {}, { withCredentials: true })
+      .post(`${process.env.REACT_APP_API_URL}/`, {}, { withCredentials: true })
       .then((res) => {
         if (res.data.status) {
           setIsVerified(true);

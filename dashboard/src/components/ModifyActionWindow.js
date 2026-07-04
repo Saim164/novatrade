@@ -15,7 +15,7 @@ const ModifyActionWindow = ({ orderId, defaultQty, defaultPrice, onSuccess }) =>
   const handleModifyClick = () => {
     if (stockPrice < 1) return;
 
-    axios.put(`http://localhost:3002/updateOrder/${orderId}`, {
+    axios.put(`${process.env.REACT_APP_API_URL}/updateOrder/${orderId}`, {
       qty: stockQuantity,
       price: stockPrice,
     }).then(() => {

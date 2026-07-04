@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import { FormatListBulletedOutlined } from "@mui/icons-material";
 
 const handleLogout = async () => {
-  await fetch("http://localhost:3002/logout", {
+  await fetch(`${process.env.REACT_APP_API_URL}/logout`, {
     method: "POST",
     credentials: "include",
   });

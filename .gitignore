@@ -13,6 +13,10 @@ dashboard/.env
 dashboard/.env.local
 dashboard/.env.*.local
 
+frontend/.env
+frontend/.env.local
+frontend/.env.*.local
+
 
 # Build outputs
 frontend/dist/
